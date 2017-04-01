@@ -5,25 +5,60 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
         }
         body {
             padding: 20px 20px 20px 20px;
-        }        
-		a {
-			text-decoration: none;		}
-		a:hover {
-			color:deeppink;		}
-        ul {
+        }
+        .header {
+            padding: 10px 10px 10px 10px;
+            background-color: #b56663;
+        }      
+       .main-content {
+            padding: 20px 20px 20px 20px;
+            border: 1px solid #dddddd;
+            margin: 30px auto 0 auto;
+            width: 500px;            
+        }
+        .photos {
+                list-style-type: none;
+                padding: 0;                 
+        }
+        .photos li {
+            display: inline;
+            padding-left: 11px;           
+        }
+		ul {
             padding: 0 0 0 50px;
             }
         ol {
             padding: 0 0 0 50px;
             }
         h1 {
-            color:lightseagreen;
+            color: #ffffff;
             margin: 10px 0 15px 0;
+            text-align: center;
         }    
         h2 {
             padding: 6px 3px 0 0;
             margin: 10px 0 20px 0; 
             color:lightseagreen;
+            text-align: center;
+        }
+        
+        .nav {
+            padding-left: 0;
+            margin: 5px 0 20px 0;
+            text-align: center;
+        }
+        
+        .nav li {
+            display: inline;
+        }
+        .recipes li {
+            border: 1px solid #b56663;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+        .recipes {
+            list-style-type: none;
+            padding: 0;
         }
         h3 {
             color:lightseagreen;
@@ -31,13 +66,20 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
             border-bottom: 1px solid #CCCCCC;
             padding-bottom: 3px;
         }
-        .nav {
-            padding-left: 0;
+        .recipes h3 {
+            border-bottom: 0;
         }
+       
+        a {
+			text-decoration: none;		}
+		a:hover {
+			color:deeppink;		}
         .nav a {
             color:#0000af;
-            text-decoration:none;
-        }
-        .nav li {
-            display: inline;
-        }
+            text-decoration:none;        }
+        .header a {
+            color: #ffffff;     }  
+        .recipes a {
+            color: #7facaa;
+            text-decoration: none; }
+         
