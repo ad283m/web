@@ -5,16 +5,24 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
         }
         body {
             padding: 20px 20px 20px 20px;
+            background-color: #5f5f5f;
+            background: #5f5f5f url(images/background.png) top left repeat;
+            font-family: Helvetica, Arial, sans-serif;
         }
         .header {
             padding: 10px 10px 10px 10px;
             background-color: #b56663;
         }      
+        .header img {
+            display: block;
+            margin: 0 auto 0 auto;
+        }
        .main-content {
             padding: 20px 20px 20px 20px;
             border: 1px solid #dddddd;
             margin: 30px auto 0 auto;
-            width: 500px;            
+            width: 800px; 
+            background: #5f5f5f url(images/main-content-bg.jpg) top left repeat;           
         }
         .photos {
                 list-style-type: none;
@@ -22,7 +30,8 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
         }
         .photos li {
             display: inline;
-            padding-left: 11px;           
+            *padding-left: 11px;
+            
         }
 		ul {
             padding: 0 0 0 50px;
@@ -55,6 +64,7 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
             border: 1px solid #b56663;
             padding-left: 15px;
             margin-bottom: 15px;
+            background: #5f5f5f url(images/recipes-list-bg.jpg) top left repeat;     
         }
         .recipes {
             list-style-type: none;
@@ -82,4 +92,26 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
         .recipes a {
             color: #7facaa;
             text-decoration: none; }
-         
+        .featured-image {
+            width: 602px;
+            height: 338px;
+            background: #ffffff url(images/recipes.jpg) top left no-repeat;
+        }
+        .featured-image h3 {
+            margin: 0;
+            background-color: #333333;
+            color: #ffffff;
+            padding: 5px 0 5px 15;
+            text-transform: uppercase;
+
+        }
+        .recipes img {
+            float: left;
+            padding-right: 10px;
+            width: 75px;
+            height: 75px;            
+        }
+        label,input {
+            display: block;
+        }
+                   
